@@ -1,0 +1,28 @@
+.job{
+	display: flex;
+}
+	.job-title{
+		width: 25%;
+	}
+	.job-description{
+		width: 75%;
+		padding: 0 2em;
+		border-left: 1px solid black;
+	}
+
+@media(max-width: 640px){
+	.job{
+		display: block;
+	}
+	.job-title{
+		width: 100%;
+		padding-bottom: 10px;
+		border-bottom: 1px dashed black;
+		text-align: center;
+	}
+	.job-description{
+		width: 100%;
+		border-left: none;
+		padding: 0;
+	}
+}
